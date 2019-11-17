@@ -154,7 +154,7 @@ vi /etc/docker/daemon.json
     
 systemctl restart docker
     
-# kubelet
+# kubelet 检验kubelet 的cgroup方式是否为systemd,如果不是就修改，如果是，就找不到文件
 sed -i "s/cgroup-driver=systemd/cgroup-driver=cgroupfs/g" /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
 	
 systemctl enable kubelet && systemctl start kubelet
