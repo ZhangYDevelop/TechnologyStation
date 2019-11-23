@@ -16,3 +16,5 @@
 
 8、kubectl delete -f my-nginx.yam
 
+9、kubectl delete pods pode-name（删除后会重新创建）
+
