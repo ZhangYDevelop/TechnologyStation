@@ -1,4 +1,5 @@
-##vagrant+virtualbox 搭建虚拟机
+**vagrant+virtualbox 搭建虚拟机**
+
 1.按照官网步骤安装 vagrant  和 vartualbox
 
 2.提前下载好virtualbox.box 虚拟机文件
