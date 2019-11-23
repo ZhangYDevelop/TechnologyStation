@@ -9,10 +9,11 @@
 4.启动虚拟机 vagrant up ，让后进入虚拟机 vagrant ssh  ，切换root： sudo -s
 
 5.修改root密码，xshel等工具可以链接：
-  a: vi /etc/ssh/sshd_config
 
-  b: 修改属性 PasswordAuthentication no -> PasswordAuthentication yes
+​    a: vi /etc/ssh/sshd_config
 
-  c: service sshd restart
+​    b: 修改属性 PasswordAuthentication no -> PasswordAuthentication yes
+
+​    c: service sshd restart
 
 6.修改root密码： passwd（至此大功告成）
