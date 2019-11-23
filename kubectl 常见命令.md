@@ -18,3 +18,15 @@
 
 9、kubectl delete pods pode-name（删除后会重新创建）
 
+10、kubectl get deployment/replicationcontroller/replicaset (查看不同类型的资源)
+
+11、kubectl set image deployment nginx-deployment nginx=1.9.1 (手动设置镜像版本，deployment 类型的资源镜像会自动跟新版本)
+
+12、 kubectl get namespace (获取命名空间)
+
+13、kubenctl get pods -n  namespace (获取具体命名空间下的pods)
+
+14、创建命名空间  Create a new YAML file called `my-namespace.yaml` with the contents:
+
+15、kubectl delete namespaces <insert-some-namespace-name> （删除命名空))
+
