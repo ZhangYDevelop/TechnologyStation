@@ -28,5 +28,7 @@
 
 14、创建命名空间  Create a new YAML file called `my-namespace.yaml` with the contents:
 
-15、kubectl delete namespaces <insert-some-namespace-name> （删除命名空))
+15、kubectl delete namespaces <insert-some-namespace-name> （删除命名空)
+
+16、lsof -i tcp:8080 (查看端口所在进程)
 
