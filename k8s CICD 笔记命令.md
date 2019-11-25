@@ -80,6 +80,7 @@
   git config --global user.name "itcrazy2016"
   git config --global user.email "itcrazy2016@163.com"
   ssh-keygen -t rsa -C "itcrazy2016@163.com"  --->将公钥上传到github:/root/.ssh/id_rsa.pub
+  ssh -T git@github.com (查看是否能通过github认证)
   ```
 
 ### 1.1.1 IDEA+Spring Boot项目
