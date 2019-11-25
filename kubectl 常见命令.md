@@ -32,3 +32,4 @@
 
 16、lsof -i tcp:8080 (查看端口所在进程)
 
+17、kubectl describe podsname -n kube-system  (查看kube-system空间下pods的运行详情)
