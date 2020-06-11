@@ -18,4 +18,5 @@
 
 6.修改root密码： passwd（至此大功告成）
 
-7、jps  查看进程号  jstack+ pid 查看进程堆栈信息  jps -lvm 查看所有java进进程堆栈信息
+Linux java 常用命令积累
+jps  查看进程号  jstack+ pid 查看进程堆栈信息  jps -lvm 查看所有java进进程堆栈信息
